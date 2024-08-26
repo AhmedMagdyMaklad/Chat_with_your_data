@@ -12,7 +12,7 @@ import os
 
 
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyDqeXZ-OEmmT5bCdr43kmbCramcRDliNUU"
+    os.environ["GOOGLE_API_KEY"] = "GOOGLE_API_KEY" # your google api key here
 
 
 def get_pdf_text(pdf_docs):
